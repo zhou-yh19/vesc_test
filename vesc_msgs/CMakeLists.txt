@@ -11,6 +11,8 @@ add_message_files(
   FILES
   VescState.msg
   VescStateStamped.msg
+  VescCtrl.msg
+  VescCtrlStamped.msg
 )
 generate_messages(
   DEPENDENCIES
